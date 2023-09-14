@@ -15,7 +15,7 @@ function Navbar() {
           <div className="" id="navbar-solid-bg">
             
                 <a
-                  href="#"
+                  href="https://hiunnis.com/"
                   className="block py-2 text-2xl pl-3 pr-4 text-[#4ABFA1] rounded  "
                   aria-current="page"
                 >
