@@ -3,12 +3,12 @@ function March2022() {
     <>
       <div id="content" class="relative lg:ml-20">
         <div class="">
-          <div class="text-2xl font-bold px-5 py-5">New Features:</div>
+          <div class="text-2xl font-bold mx-2 my-2">New Features:</div>
           <ul class="list-disc px-20">
             <li class="list-disc"> Coin System</li>
           </ul>
         </div>
-        <div class="text-2xl font-bold px-5 py-5">Updates:</div>
+        <div class="text-2xl font-bold mx-2 my-2">Updates:</div>
         <ul class="list-disc px-20">
           <li class="list-disc"> Add event category</li>
           <li class="list-disc"> Add attendance check event</li>
@@ -18,7 +18,7 @@ function March2022() {
             Add friend invitation coin acquisition event
           </li>
         </ul>
-        <div class="text-2xl font-bold px-5 py-5">Bug Fixes:</div>
+        <div class="text-2xl font-bold mx-2 my-2">Bug Fixes:</div>
         <ul class="list-disc px-20">
           <li class="list-disc">Address search bug fix</li>
         </ul>

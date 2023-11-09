@@ -19,13 +19,13 @@ function Sidebar() {
 
   return (
     <>
-      <p className="text-slate-500 text-sm mb-2">Release notes</p>
+      <p className="text-slate-500 sidebar-release">Release notes</p>
       <div>
         <button
           type="button"
           className={`flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group  mr-1 ${
             isDropdownOpen
-              ? "hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 bg-gray-200"
+              ? "hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 bg-gray-200"
               : "mr-16"
           }`}
           onClick={toggleDropdown}
@@ -57,7 +57,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/September2021"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "September2021" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("September2021")}
@@ -68,7 +68,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/October2021"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "October2021" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("October2021")}
@@ -79,7 +79,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/November2021"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "November2021" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("November2021")}
@@ -90,7 +90,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/Desember2021"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "Desember2021" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("Desember2021")}
@@ -105,7 +105,7 @@ function Sidebar() {
           type="button"
           className={`flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group  mr-1 ${
             isDropdownOpen1
-              ? "hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 bg-gray-200"
+              ? "hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 bg-gray-200"
               : "mr-16"
           }`}
           onClick={toggleDropdown1}
@@ -137,7 +137,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/January2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "January2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("January2022")}
@@ -148,7 +148,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/February2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "February2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("February2022")}
@@ -159,7 +159,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/March2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "March2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("March2022")}
@@ -170,7 +170,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/April2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "April2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("April2022")}
@@ -181,7 +181,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/May2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "May2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("May2022")}
@@ -192,7 +192,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/June2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "June2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("June2022")}
@@ -203,7 +203,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/August2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "August2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("August2022")}
@@ -214,7 +214,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/September2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "September2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("September2022")}
@@ -225,7 +225,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/October2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "October2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("October2022")}
@@ -236,7 +236,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/November2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "November2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("November2022")}
@@ -247,7 +247,7 @@ function Sidebar() {
           <li>
             <Link
               to={"/Desember2022"}
-              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-dark dark:hover:bg-gray-100 ${
                 isActive == "Desember2022" ?  "bg-gray-200" :""
               }`}
               onClick={() => handleItemClick("Desember2022")}

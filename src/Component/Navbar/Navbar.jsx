@@ -4,10 +4,10 @@ import banner from "../../assets/unnis_web_top.png";
 function Navbar() {
   return (
     <>
-      <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 sticky top-0 z-10 px-10">
+      <nav className="bg-white nav-white color-dark sticky top-0 z-10 px-10" style={{ backgroundColor: 'white !important',  color: 'black !important'}}>
         <div className="flex flex-wrap items-center justify-between mx-auto py-4 ">
           <div>
-            <a href="#" className="flex items-center">
+            <a href="https://hiunnis.com/" className="flex items-center">
               <img src={LG} className="w-50 h-10" alt="Unnis Logo" />
             </a>
           </div>
@@ -25,7 +25,7 @@ function Navbar() {
         </div>
       </nav>
       <div className="width-[100vw] column">
-        <img src={banner} />
+        <img src={banner} className="width-[100vw] column"/>
       </div>
     </>
   );

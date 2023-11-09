@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.text-green-500{
+    color: #45b69a !important;
+}
+
+body{
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.text-2xl{
+    font-size: 20px;
+}
+
+.font-bold{
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 36px !important;
+    margin: 20px 0 15px !important;
+}
+
+.text-title{
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 24px !important;
+    color: #45b69a !important;
+    margin-bottom: 20px !important;
+    border-top: 1px solid var(--light-gray) !important;
+}
+
+.dateStyle{
+    margin-left: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    color: grey;
+    font-weight: 300;
+}
+
+.sidebar-release{
+    padding: 8px !important;
+    margin-left: 4px !important;
+
+}
