@@ -16,6 +16,15 @@ import September2022 from '../Component/Content/September2022';
 import October2022 from '../Component/Content/October2022';
 import November2022 from '../Component/Content/November2022';
 import Desember2022 from '../Component/Content/Desember2022';
+import January2023 from '../Component/Content/January2023';
+import February2023 from '../Component/Content/February2023';
+import April2023 from '../Component/Content/April2023';
+import May2023 from '../Component/Content/May2023';
+import June2023 from '../Component/Content/June2023';
+import July2023 from '../Component/Content/July2023';
+import August2023 from '../Component/Content/August2023';
+import September2023 from '../Component/Content/September2023';
+import October2023 from '../Component/Content/October2023';
 
 const router = createBrowserRouter([
   {
@@ -84,6 +93,42 @@ const router = createBrowserRouter([
           {
             path: '/Desember2022',
             element: <Desember2022/>
+          },
+          {
+            path: '/January2023',
+            element: <January2023/>
+          },
+          {
+            path: '/February2023',
+            element: <February2023/>
+          },
+          {
+            path: '/April2023',
+            element: <April2023/>
+          },
+          {
+            path: '/May2023',
+            element: <May2023/>
+          },
+          {
+            path: '/June2023',
+            element: <June2023/>
+          },
+          {
+            path: '/July2023',
+            element: <July2023/>
+          },
+          {
+            path: '/August2023',
+            element: <August2023/>
+          },
+          {
+            path: '/September2023',
+            element: <September2023/>
+          },
+          {
+            path: '/October2023',
+            element: <October2023/>
           },
         ]
       },
