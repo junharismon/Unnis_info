@@ -26,6 +26,7 @@ import July2023 from "../Component/Content/July2023";
 import August2023 from "../Component/Content/August2023";
 import September2023 from "../Component/Content/September2023";
 import October2023 from "../Component/Content/October2023";
+import November2023 from "../Component/Content/November2023";
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,12 @@ const router = createBrowserRouter([
       {
         path: "/*",
         element: (
-          <Home><October2023 /></Home>
+          <Home><November2023 /></Home>
         ),
+      },
+      {
+        path: "/November2023",
+        element: <Home><November2023 /></Home>,
       },
       {
         path: "/October2023",
