@@ -16,6 +16,16 @@ import September2022 from "../Component/Content/September2022";
 import October2022 from "../Component/Content/October2022";
 import November2022 from "../Component/Content/November2022";
 import Desember2022 from "../Component/Content/Desember2022";
+import January2023 from "../Component/Content/January2023";
+import February2023 from "../Component/Content/February2023";
+import March2023 from "../Component/Content/March2023";
+import April2023 from "../Component/Content/April2023";
+import May2023 from "../Component/Content/May2023";
+import June2023 from "../Component/Content/June2023";
+import July2023 from "../Component/Content/July2023";
+import August2023 from "../Component/Content/August2023";
+import September2023 from "../Component/Content/September2023";
+import October2023 from "../Component/Content/October2023";
 
 const router = createBrowserRouter([
   {
@@ -24,14 +34,12 @@ const router = createBrowserRouter([
       {
         path: "/*",
         element: (
-          <Home>
-            <Desember2022 />
-          </Home>
+          <Home><October2023 /></Home>
         ),
       },
       {
-        path: "/Desember2022",
-        element: <Home><Desember2022 /></Home>,
+        path: "/October2023",
+        element: <Home><October2023 /></Home>,
       },
       {
         path: "/September2021",
@@ -89,6 +97,47 @@ const router = createBrowserRouter([
         path: "/November2022",
         element: <Home><November2022 /></Home>,
       },
+      {
+        path: "/Desember2022",
+        element: <Home><Desember2022 /></Home>,
+      },
+      {
+        path: "/January2023",
+        element: <Home><January2023 /></Home>,
+      },
+      {
+        path: "/February2023",
+        element: <Home><February2023 /></Home>,
+      },
+      {
+        path: "/March2023",
+        element: <Home><March2023 /></Home>,
+      },
+      {
+        path: "/April2023",
+        element: <Home><April2023 /></Home>,
+      },
+      {
+        path: "/May2023",
+        element: <Home><May2023 /></Home>,
+      },
+      {
+        path: "/June2023",
+        element: <Home><June2023 /></Home>,
+      },
+      {
+        path: "/July2023",
+        element: <Home><July2023 /></Home>,
+      },
+      {
+        path: "/August2023",
+        element: <Home><August2023 /></Home>,
+      },
+      {
+        path: "/September2023",
+        element: <Home><September2023 /></Home>,
+      },
+      
     ],
   },
 ]);

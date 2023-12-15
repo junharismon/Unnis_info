@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdownOpen1, setDropdownOpen1] = useState(false);
+  const [isDropdownOpen2, setDropdownOpen2] = useState(false);
+
   const [isActive, setActive] = useState("")
 
   const toggleDropdown = () => {
@@ -11,6 +13,10 @@ function Sidebar() {
   };
   const toggleDropdown1 = () => {
     setDropdownOpen1(!isDropdownOpen1);
+  };
+
+  const toggleDropdown2 = () => {
+    setDropdownOpen2(!isDropdownOpen2);
   };
 
   const handleItemClick = (itemName) => {
@@ -253,6 +259,152 @@ function Sidebar() {
               onClick={() => handleItemClick("Desember2022")}
               >
               Desember
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button
+          type="button"
+          className={`flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group  mr-1 ${
+            isDropdownOpen2
+              ? "hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 bg-gray-200"
+              : "mr-16"
+          }`}
+          onClick={toggleDropdown2}
+        >
+          <span className="flex-1 ml-1 text-left whitespace-nowrap">2023</span>
+          <svg
+            className={`w-3 h-3 transition-transform duration-75 ${
+              isDropdownOpen2 ? "rotate-180" : ""
+            }`}
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 10 6"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m1 1 4 4 4-4"
+            />
+          </svg>
+        </button>
+        <ul
+          className={`${
+            isDropdownOpen2 ? "block" : "hidden"
+          } py-2 space-y-2 pl-10`}
+        >
+          <li>
+            <Link
+              to={"/January2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "January2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("January2023")}
+              >
+              January
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/February2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "February2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("February2023")}
+              >
+              February
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/March2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "February2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("March2023")}
+              >
+              March
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/April2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "April2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("April2023")}
+              >
+              April
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/May2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "May2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("May2023")}
+              >
+              May
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/June2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "June2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("June2023")}
+              >
+              June
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/July2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "July2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("July2023")}
+              >
+              July
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/August2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "August2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("August2023")}
+              >
+              August
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/September2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "September2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("September2023")}
+              >
+              September
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/October2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "October2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("October2023")}
+              >
+              October
             </Link>
           </li>
         </ul>
