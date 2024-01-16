@@ -15,7 +15,7 @@ function November2023() {
           <li class="disc-list-text"> Fix image</li>
           <li class="disc-list-text"> Fix Bugs and error</li>
         </ul>
-        <div class="">
+        <div class="pt-5">
           <div class="text-title text-2xl font-bold space-y-5 text-green-500">
             v2.7.11 (android) <span className="dateStyle">20 Nov 2023</span>
           </div>
@@ -24,7 +24,7 @@ function November2023() {
         <ul class="list-disc px-20">
           <li class="disc-list-text">Bug fixes in sign up page</li>
         </ul>
-        <div class="">
+        <div class="pt-5">
           <div class="text-title text-2xl font-bold space-y-5 text-green-500">
             v2.7.12 (android) <span className="dateStyle">12 Nov 2023</span>
           </div>
@@ -33,7 +33,7 @@ function November2023() {
         <ul class="list-disc px-20">
           <li class="disc-list-text"> fix bug voucher birthdate and apps logo</li>
         </ul>
-        <div class="">
+        <div class="pt-5">
           <div class="text-title text-2xl font-bold space-y-5 text-green-500">
             v2.7.13 (android) <span className="dateStyle">21 Nov 2023</span>
           </div>

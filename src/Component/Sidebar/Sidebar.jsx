@@ -407,6 +407,17 @@ function Sidebar() {
               October
             </Link>
           </li>
+          <li>
+            <Link
+              to={"/November2023"}
+              className={`flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 ${
+                isActive == "November2023" ?  "bg-gray-200" :""
+              }`}
+              onClick={() => handleItemClick("November2023")}
+              >
+              November
+            </Link>
+          </li>
         </ul>
       </div>
     </>
