@@ -3,15 +3,15 @@ function October2022() {
     <>
       <div id="content" class="relative lg:ml-20">
         <div class="">
-          <div class="text-2xl font-bold space-y-5 text-green-500">
+          <div class="text-title text-2xl font-bold space-y-5 text-green-500">
             {" "}
-            v2.6.17 (Android) - 28 October 2022
+            v2.6.17 (Android) <span className="dateStyle"> 28 October 2022</span>
           </div>
-          <div class="text-2xl font-bold space-y-5 text-green-500">
+          <div class="text-title text-2xl font-bold space-y-5 text-green-500">
             {" "}
-            v1.5.9 (ios) - 23 October 2022
+            v1.5.9 (ios) <span className="dateStyle">23 October 2022</span>
           </div>
-          <div class="text-2xl font-bold px-5 py-5">New Features:</div>
+          <div class="text-2xl font-bold mx-2 my-2">New Features:</div>
           <ul class="list-disc px-20">
             <li class="list-disc">
               {" "}
@@ -23,7 +23,7 @@ function October2022() {
             </li>{" "}
           </ul>
         </div>
-        <div class="text-2xl font-bold px-5 py-5">Updates:</div>
+        <div class="text-2xl font-bold mx-2 my-2">Updates:</div>
         <ul class="list-disc px-20">
           <li class="list-disc"> Update product favorites page</li>
           <li class="list-disc"> Modifying the ended event ui</li>
@@ -37,7 +37,7 @@ function October2022() {
           <li class="list-disc"> Add beauty box review action</li>
           <li class="list-disc"> Add coin terms of use</li>
         </ul>
-        <div class="text-2xl font-bold px-5 py-5">Bug Fixes:</div>
+        <div class="text-2xl font-bold mx-2 my-2">Bug Fixes:</div>
         <ul class="list-disc px-20">
           <li class="list-disc"> Fix pop-up close button error</li>
           <li class="list-disc">

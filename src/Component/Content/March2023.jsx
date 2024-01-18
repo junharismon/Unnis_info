@@ -1,28 +1,28 @@
-function September2021() {
+function May2023() {
   return (
     <>
       <div id="content" class="relative lg:ml-20">
         <div class="">
           <div class="text-2xl font-bold mx-2 my-2">New Features:</div>
           <ul class="list-disc px-20">
-            <li class="list-disc">Product page</li>
-            <li class="list-disc">Sign in system</li>
+            <li class="list-disc"> Coin System</li>
           </ul>
         </div>
         <div class="text-2xl font-bold mx-2 my-2">Updates:</div>
         <ul class="list-disc px-20">
-          <li class="list-disc"> Update review modifications</li>
-          <li class="list-disc"> Update product buylink</li>
-          <li class="list-disc"> Update product tag</li>
-          <li class="list-disc"> Update facebook login</li>
+        <li class="list-disc"> Add event category</li>
+          <li class="list-disc"> Add attendance check event</li>
+          <li class="list-disc"> Add subscription information</li>
+          <li class="list-disc"> Add friend invitation coin acquisition event
+          </li>
         </ul>
         <div class="text-2xl font-bold mx-2 my-2">Bug Fixes:</div>
         <ul class="list-disc px-20">
-          <li class="list-disc"> Fix google login bug</li>
+        <li class="list-disc">Address search bug fix</li>
         </ul>
       </div>
     </>
   );
 }
 
-export default September2021
+export default May2023;
