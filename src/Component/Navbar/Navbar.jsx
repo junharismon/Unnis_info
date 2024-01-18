@@ -1,5 +1,5 @@
 import LG from "../../assets/unnis_logo.png";
-import banner from "../../assets/unnis_web_top.png";
+import banner from "../../assets/image.png";
 
 function Navbar() {
   return (
@@ -24,7 +24,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="width-[100vw] column">
+      <div className="width-[100vw] column mb-10">
         <img src={banner} className="width-[100vw] column"/>
       </div>
     </>
