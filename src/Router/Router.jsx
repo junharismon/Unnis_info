@@ -42,7 +42,7 @@ const router = createBrowserRouter([
       {
         path: "/*",
         element: (
-          <Home><Android2023/></Home>
+          <Home><Android2024/></Home>
         ),
       },
       {
