@@ -64,6 +64,17 @@ function Sidebar() {
             isDropdownOpen ? "block" : "hidden"
           } py-2 space-y-2 `}
         >
+                <li>
+            <Link
+              to={"/Android2024"}
+              className={`flex items-center w-full p-2 pl-5 text-gray-900 transition duration-75  group hover:text-[#4ABFA1] dark:text-dark dark:hover:bg-gray-100 ${
+                isActive == "Android2024" ? "bg-[#C0FBEC]  text-[#4ABFA1] w-full" : ""
+              }`}
+              onClick={() => handleItemClick("Android2024")}
+            >
+              2024
+            </Link>
+          </li>
           <li>
             <Link
               to={"/Android2023"}
@@ -133,6 +144,17 @@ function Sidebar() {
             isDropdownOpen1 ? "block" : "hidden"
           } py-2 space-y-2`}
         >
+               <li>
+            <Link
+              to={"/Ios2024"}
+              className={`flex items-center w-full p-2 pl-5 text-gray-900 transition duration-75  group hover:text-[#4ABFA1] dark:text-dark dark:hover:bg-gray-100 ${
+                isActive == "Ios2024" ? "bg-[#C0FBEC]  text-[#4ABFA1] w-full" : ""
+              }`}
+              onClick={() => handleItemClick("Ios2024")}
+            >
+              2024
+            </Link>
+          </li>
           <li>
             <Link
               to={"/Ios2023"}

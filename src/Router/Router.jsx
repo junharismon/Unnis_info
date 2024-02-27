@@ -27,11 +27,13 @@ import August2023 from "../Component/Content/August2023";
 import September2023 from "../Component/Content/September2023";
 import October2023 from "../Component/Content/October2023";
 import November2023 from "../Component/Content/November2023";
+import Android2024 from "../Component/Content/Android2024";
 import Android2023 from "../Component/Content/Android2023";
 import Android2022 from "../Component/Content/Android2022";
 import Android2021 from "../Component/Content/Android2021";
 import Ios2022 from "../Component/Content/Ios2022";
 import Ios2023 from "../Component/Content/Ios2023";
+import Ios2024 from "../Component/Content/Ios2024";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +46,10 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "/Android2024",
+        element: <Home><Android2024/></Home>,
+      },
+      {
         path: "/Android2023",
         element: <Home><Android2023/></Home>,
       },
@@ -54,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: "/Android2021",
         element: <Home><Android2021/></Home>,
+      },
+      {
+        path: "/Ios2024",
+        element: <Home><Ios2024/></Home>,
       },
       {
         path: "/Ios2023",
