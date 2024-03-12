@@ -1,18 +1,44 @@
 function Android2024() {
-    return (
-      <>
-        <div id="content" class="flex w-full lg:ml-20">
-          <div className="lg:w-3/4">
-            <p className="text-[36px] font-semibold text-green-500">
-              UNNIS for Android
-            </p>
+  return (
+    <>
+      <div id="content" class="flex w-full lg:ml-20">
+        <div className="lg:w-3/4">
+          <p className="text-[36px] font-semibold text-green-500">
+            UNNIS for Android
+          </p>
+          <div className="py-[0.3px] my-6 bg-gray-400"></div>
+          <div id="v2.9.1">
+            <div className="text-[36px] font-semibold text-green-500">
+              v2.9.1<span className="dateStyle ps-2">8 Mar 2024</span>
+            </div>
+            <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
+            <ul class="list-disc px-12">
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Voucher Special</div>
+                Unni punya kode voucher dari UNNIS? Sekarang Unni bisa klaim
+                vouchernya di aplikasi yaa~
+              </li>
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Pop Up Birthday</div>
+                Unni kelupaan isi tanggal ulang tahun? We got your back B-)
+              </li>
+              <li class="list-disc pb-2">
+                <div className="font-semibold">New Logo Unnis</div>
+                Ramadhan tiba... Ramadhan tiba... Ramadhan tibaa... Tungguin
+                yaa... logo UNNIS Ramadhan!
+              </li>
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Increase Performance</div>
+                UNNIS bakalan lebih responsif buat penuhin kebutuhan cantikmuu~
+              </li>
+            </ul>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
-           
-            <div id="v2.9.0">
-              <div className="text-[36px] font-semibold text-green-500">
-                v2.9.0<span className="dateStyle ps-2">13 Feb 2024</span>
-              </div>
-              <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
+          </div>
+          <div id="v2.9.0">
+            <div className="text-[36px] font-semibold text-green-500">
+              v2.9.0<span className="dateStyle ps-2">13 Feb 2024</span>
+            </div>
+            <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
               <li class="list-disc pb-2">
                 <div className="font-semibold">Recommendation AI</div>
@@ -64,24 +90,21 @@ function Android2024() {
                 FAQ-nya diperbarui ya Unni, biar ga misleading lagi~~~
               </li>
             </ul>
-              <div className="py-[0.3px] my-6 bg-gray-400"></div>
-            </div>
-          </div>
-          <div class="hidden lg:block lg:w-1/4 sticky top-0 lg:pl-20">
-              <p className="mb-4 font-semibold text-green-500">
-                  UNNIS of Android
-              </p>
-            <ul class="text-gray-400">
-              <li class="my-0.5 hover:text-black">
-                <a href="#v2.9.0">v2.9.0 - 13 Feb 2024</a>
-              </li>
-
-            </ul>
+            <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
         </div>
-      </>
-    );
-  }
-  
-  export default Android2024;
-  
+        <div class="hidden lg:block lg:w-1/4 sticky top-0 lg:pl-20">
+          <p className="mb-4 font-semibold text-green-500">UNNIS of Android</p>
+          <ul class="text-gray-400">
+            <li class="my-0.5 hover:text-black">
+              <a href="#v2.9.1 ">v2.9.1 - 8 Mar 2024</a>
+              <a href="#v2.9.0">v2.9.0 - 13 Feb 2024</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Android2024;
