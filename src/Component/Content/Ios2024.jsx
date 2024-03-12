@@ -87,8 +87,8 @@ function Ios2024() {
           <p className="mb-4 font-semibold text-green-500">UNNIS of Android</p>
           <ul class="text-gray-400">
             <li class="my-0.5 hover:text-black">
-              <a href="#v2.7.1">v2.7.1 - 8 Mar 2024</a>
-              <a href="#v1.7.0">v1.7.0 - 13 Feb 2024</a>
+              <a href="#v2.7.1" class="block">v2.7.1 - 8 Mar 2024</a>
+              <a href="#v1.7.0" class="block">v1.7.0 - 13 Feb 2024</a>
             </li>
           </ul>
         </div>
