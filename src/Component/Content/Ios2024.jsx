@@ -7,7 +7,7 @@ function Ios2024() {
             UNNIS for Ios
           </p>
           <div className="py-[0.3px] my-6 bg-gray-400"></div>
-          <div id="v2.7.1">
+          {/* <div id="v2.7.1">
             <div className="text-[36px] font-semibold text-green-500">
               v2.7.1<span className="dateStyle ps-2">8 Mar 2024</span>
             </div>
@@ -33,7 +33,7 @@ function Ios2024() {
               </li>
             </ul>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
-          </div>
+          </div> */}
           <div id="v1.7.0">
             <div className="text-[36px] font-semibold text-green-500">
               v1.7.0<span className="dateStyle ps-2">13 Feb 2024</span>
@@ -87,7 +87,7 @@ function Ios2024() {
           <p className="mb-4 font-semibold text-green-500">UNNIS of Android</p>
           <ul class="text-gray-400">
             <li class="my-0.5 hover:text-black">
-              <a href="#v2.7.1" class="block">v2.7.1 - 8 Mar 2024</a>
+              {/* <a href="#v2.7.1" class="block">v2.7.1 - 8 Mar 2024</a> */}
               <a href="#v1.7.0" class="block">v1.7.0 - 13 Feb 2024</a>
             </li>
           </ul>
