@@ -15,21 +15,21 @@ function Android2024() {
             <ul class="list-disc px-12">
               <li class="list-disc pb-2">
                 <div className="font-semibold">Voucher Special</div>
-                Unni punya kode voucher dari UNNIS? Sekarang Unni bisa klaim
-                vouchernya di aplikasi yaa~
+                Does Unni have a voucher code from UNNIS? Now Unni can claim
+                The voucher is in the app~
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Pop Up Birthday</div>
-                Unni kelupaan isi tanggal ulang tahun? We got your back B-)
+                Unni forgot the contents of the birthday date? We got your back B-)
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">New Logo Unnis</div>
-                Ramadhan tiba... Ramadhan tiba... Ramadhan tibaa... Tungguin
-                yaa... logo UNNIS Ramadhan!
+                Ramadan is here... Ramadan is here... Ramadan arrives... Wait
+                yes... UNNIS Ramadan logo!
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Increase Performance</div>
-                UNNIS bakalan lebih responsif buat penuhin kebutuhan cantikmuu~
+                UNNIS will be more responsive to meet your beautiful needs~
               </li>
             </ul>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
@@ -42,52 +42,42 @@ function Android2024() {
             <ul class="list-disc px-12">
               <li class="list-disc pb-2">
                 <div className="font-semibold">Recommendation AI</div>
-                Sambutlah kehadiran fitur baru kami, rekomendasi video dengan
-                AI! Sistem AI kami akan membantumu mencari video yang sesuai
-                dengan keadaan kulitmu yang terbaru. Yuk, segera perbarui
-                keadaan kulitmu untuk merasakan pengalaman seru dengan video
-                rekomendasi pilihan dari kami!
+                Video recommendations powered by our AI system, Al. This innovative addition is designed to assist you in discovering videos match to your current skin condition. Elevate your skincare journey by exploring our curated selection of recommended videos.
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Tracking Delivery</div>
-                Penasaran paketmu udah nyampe dimana? Cek segera dengan fitur
-                tracking delivery! Belanja di UNNIS jadi makin mudah dan
-                tenang~~~
+                Our delivery tracking feature is now available to track your packages. Shopping at UNNIS is now more convenient and reassuring.~~~
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Voucher Special</div>
-                Mau diskon buat belanja skincare Korea dari UNNIS? Tenang aja,
-                UNNIS got your back! Nikmati voucher spesial dari kami di setiap
-                event dan hari spesialmu~~~
+                Take advantage of our special vouchers offered during events and on your special occasions to take a more discount in our App.~~~
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Renewal Design Home Page</div>
-                Tahun baruu, home page baruu :)
+                New year, new home page :)
               </li>
             </ul>
             <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
             <ul class="list-disc px-12">
               <li class="list-disc pb-2">
                 <div className="font-semibold">Banner</div>
-                Banner baru, lebih cakep dan informatif~~~
+                Introducing a new banner to inform you an curent event and information~~~
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Contact Us Page</div>
-                Perbaikan informasi kontak, biar ga nyasar lagii...
+                Enhanced contact information for smoother page.
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Authentication</div>
-                OTP di aplikasi jadi lebih mudah dan jelas, anti ribet ribet
-                clubb...
+                Simplified and clarified OTP process within the application.
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">Community Page</div>
-                Community page glow up nihh... Siap buat dijelajahi dengan lebih
-                mudah oleh Unni!
+                The community page has undergone enhancements for easier exploration!
               </li>
               <li class="list-disc pb-2">
                 <div className="font-semibold">FAQ Page</div>
-                FAQ-nya diperbarui ya Unni, biar ga misleading lagi~~~
+                Our FAQ section has been updated to provide accurate and helpful information~~~
               </li>
             </ul>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
