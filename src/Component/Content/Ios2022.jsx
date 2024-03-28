@@ -7,9 +7,9 @@ function Ios2022() {
                UNNIS for Ios
             </p>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
-          <div id="v1.5.14">
+          <div id="v2.5.14">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.14<span className="dateStyle ps-2">27 Dec 2022</span>
+              v2.5.14<span className="dateStyle ps-2">27 Dec 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -28,9 +28,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.11">
+          <div id="v2.5.11">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.11<span className="dateStyle ps-2">28 Nov 2022</span>
+              v2.5.11<span className="dateStyle ps-2">28 Nov 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -62,9 +62,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.9">
+          <div id="v2.5.9">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.9<span className="dateStyle ps-2">26 Oct 2022</span>
+              v2.5.9<span className="dateStyle ps-2">26 Oct 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -99,9 +99,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.8">
+          <div id="v2.5.8">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.8<span className="dateStyle ps-2">28 Sep 2022</span>
+              v2.5.8<span className="dateStyle ps-2">28 Sep 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -124,9 +124,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.6">
+          <div id="v2.5.6">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.6<span className="dateStyle ps-2">26 Aug 2022</span>
+              v2.5.6<span className="dateStyle ps-2">26 Aug 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -153,9 +153,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.4">
+          <div id="v2.5.4">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.4<span className="dateStyle ps-2">1 Mar 2023</span>
+              v2.5.4<span className="dateStyle ps-2">1 Mar 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -177,9 +177,9 @@ function Ios2022() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.2">
+          <div id="v2.5.2">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.2<span className="dateStyle ps-2">1 Jan 2022</span>
+              v2.5.2<span className="dateStyle ps-2">1 Jan 2022</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">New Features</div>
             <ul class="list-disc px-12">
@@ -203,29 +203,29 @@ function Ios2022() {
         </div>
         <div class="hidden lg:block lg:w-1/4 sticky top-0 lg:pl-20">
             <p className="mb-4 font-semibold text-green-500">
-                UNNIS of Ios
+                UNNIS of IOS
             </p>
           <ul class="text-gray-400">
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.14">v1.5.14 - 27 Dec 2022</a>
+              <a href="#v2.5.14">v2.5.14 - 27 Dec 2022</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.11">v1.5.11 - 28 Nov 2022</a>
+              <a href="#v2.5.11">v2.5.11 - 28 Nov 2022</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.9">v1.5.9 - 26 Oct 2022</a>
+              <a href="#v2.5.9">v2.5.9 - 26 Oct 2022</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.8">v1.5.8 - 28 Sep 2022</a>
+              <a href="#v2.5.8">v2.5.8 - 28 Sep 2022</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.6">v1.5.6 - 26 Aug 2022</a>
+              <a href="#v2.5.6">v2.5.6 - 26 Aug 2022</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.4">v1.5.4 - 1 Mar 2023</a>
+              <a href="#v2.5.4">v2.5.4 - 1 Mar 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="# v1.5.2"> v1.5.2 - 1 Jan 2022</a>
+              <a href="# v2.5.2"> v2.5.2 - 1 Jan 2022</a>
             </li>
           </ul>
         </div>

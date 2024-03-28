@@ -7,9 +7,9 @@ function Ios2023() {
             UNNIS for Ios
           </p>
           <div className="py-[0.3px] my-6 bg-gray-400"></div>
-          <div id="v1.6.4">
+          <div id="v2.6.4">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.6.4 <span className="dateStyle ps-2">29 Dec 2023</span>
+              v2.6.4 <span className="dateStyle ps-2">29 Dec 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -24,9 +24,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.6.8">
+          <div id="v2.6.8">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.6.8<span className="dateStyle ps-2">21 Nov 2023</span>
+              v2.6.8<span className="dateStyle ps-2">21 Nov 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
             <ul class="list-disc px-12">
@@ -35,9 +35,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.6.7">
+          <div id="v2.6.7">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.6.7<span className="dateStyle ps-2">15 Nov 2023</span>
+              v2.6.7<span className="dateStyle ps-2">15 Nov 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
             <ul class="list-disc px-12">
@@ -47,9 +47,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.6.4">
+          <div id="v2.6.4">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.6.4<span className="dateStyle ps-2">29 Oct 2023</span>
+              v2.6.4<span className="dateStyle ps-2">29 Oct 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -67,9 +67,10 @@ function Ios2023() {
             </ul>
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
-          <div id="v1.6.00">
+
+          <div id="v2.6.00">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.6.00<span className="dateStyle ps-2">31 July 2023</span>
+              v2.6.00<span className="dateStyle ps-2">31 July 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -82,9 +83,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.22">
+          <div id="v2.5.22">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.22<span className="dateStyle ps-2">23 June 2023</span>
+              v2.5.22<span className="dateStyle ps-2">23 June 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -95,9 +96,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.21">
+          <div id="v2.5.21">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.21<span className="dateStyle ps-2">29 May 20233</span>
+              v2.5.21<span className="dateStyle ps-2">29 May 20233</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -112,9 +113,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.20">
+          <div id="v2.5.20">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.20<span className="dateStyle ps-2">26 April 2023</span>
+              v2.5.20<span className="dateStyle ps-2">26 April 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -132,9 +133,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.19">
+          <div id="v2.5.19">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.19<span className="dateStyle ps-2">24 Feb 2023</span>
+              v2.5.19<span className="dateStyle ps-2">24 Feb 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
             <ul class="list-disc px-12">
@@ -144,9 +145,9 @@ function Ios2023() {
             <div className="py-[0.3px] my-6 bg-gray-400"></div>
           </div>
 
-          <div id="v1.5.17">
+          <div id="v2.5.17">
             <div className="text-[36px] font-semibold text-green-500">
-              v1.5.17<span className="dateStyle ps-2">30 Jan 2023</span>
+              v2.5.17<span className="dateStyle ps-2">30 Jan 2023</span>
             </div>
             <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
             <ul class="list-disc px-12">
@@ -164,38 +165,38 @@ function Ios2023() {
         </div>
         <div class="hidden lg:block lg:w-1/4 sticky top-0 lg:pl-20">
             <p className="mb-4 font-semibold text-green-500">
-                UNNIS of Android
+                UNNIS of IOS
             </p>
           <ul class="text-gray-400">
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.6.4">v1.6.4 - 29 Dec 2023</a>
+              <a href="#v2.6.4">v2.6.4 - 29 Dec 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.6.8">v1.6.8 - 21 Nov 2023</a>
+              <a href="#v2.6.8">v2.6.8 - 21 Nov 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.6.7">v1.6.7 - 15 Nov 2023</a>
+              <a href="#v2.6.7">v2.6.7 - 15 Nov 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.6.4">v1.6.4 - 29 Oct 2023</a>
+              <a href="#v2.6.4">v2.6.4 - 29 Oct 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.6.00">v1.6.00 - 31 July 2023</a>
+              <a href="#v2.6.00">v2.6.00 - 31 July 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.22">v1.5.22 - 23 June 2023</a>
+              <a href="#v2.5.22">v2.5.22 - 23 June 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.21">v1.5.21 - 29 May 2023</a>
+              <a href="#v2.5.21">v2.5.21 - 29 May 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.20">v1.5.20 - 26 April 2023</a>
+              <a href="#v2.5.20">v2.5.20 - 26 April 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.19">v1.5.19 - 24 Feb 2023</a>
+              <a href="#v2.5.19">v2.5.19 - 24 Feb 2023</a>
             </li>
             <li class="my-0.5 hover:text-black">
-              <a href="#v1.5.17">v1.5.17 - 30 Jan 2023</a>
+              <a href="#v2.5.17">v2.5.17 - 30 Jan 2023</a>
             </li>
           </ul>
         </div>
