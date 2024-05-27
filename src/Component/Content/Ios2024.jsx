@@ -7,6 +7,34 @@ function Ios2024() {
             UNNIS for Ios
           </p>
           <div className="py-[0.3px] my-6 bg-gray-400"></div>
+          <div id="v2.8.0">
+            <div className="text-[36px] font-semibold text-green-500">
+              v2.8.0<span className="dateStyle ps-2">21 May 2024</span>
+            </div>
+            <div class="text-2xl font-semibold mx-2 my-2">Updates</div>
+            <ul class="list-disc px-12">
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Live Chat</div>
+                You can now contact an admin directly if you need assistance.
+              </li>
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Product Vouchers</div>
+                The UNNIS app now offers product vouchers and various promotions for you to use.
+              </li>
+            </ul>
+            <div class="text-2xl font-semibold mx-2 my-2">Bug Fixes</div>
+            <ul class="list-disc px-12">
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Video Recommendations</div>
+                More videos are displayed and they are more engaging, with the ability to refresh the page to update content
+              </li>
+              <li class="list-disc pb-2">
+                <div className="font-semibold">Content Updates</div>
+                There's new content in the UNNIS app. Check it out now!
+              </li>
+            </ul>
+            <div className="py-[0.3px] my-6 bg-gray-400"></div>
+          </div>
           <div id="v2.7.1">
             <div className="text-[36px] font-semibold text-green-500">
               v2.7.1<span className="dateStyle ps-2">19 Mar 2024</span>
@@ -87,6 +115,7 @@ function Ios2024() {
           <p className="mb-4 font-semibold text-green-500">UNNIS of IOS</p>
           <ul class="text-gray-400">
             <li class="my-0.5 hover:text-black">
+              <a href="#v2.8.0" class="block">v2.8.0 - 21 May 2024</a>
               <a href="#v2.7.1" class="block">v2.7.1 - 19 Mar 2024</a>
               <a href="#v2.7.0" class="block">v2.7.0 - 13 Feb 2024</a>
             </li>
